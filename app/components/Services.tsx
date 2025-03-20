@@ -119,7 +119,7 @@ export default function Services() {
             "font-martel font-light",
             "leading-relaxed"
           )}>
-            Comprehensive solutions to drive meaningful social impact and sustainable change.
+            Solutions to drive meaningful social impact and sustainable change.
           </p>
         </div>
         
