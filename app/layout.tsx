@@ -11,7 +11,7 @@ const martel = Martel_Sans({
 
 export const metadata: Metadata = {
   title: 'Figura 01 - Expert Intervention Evaluation & Analysis',
-  description: 'Expert evaluation and analysis for preventive interventions and wellbeing programs, powered by advanced data science and AI.',
+  description: 'Expert evaluation and analysis for preventive interventions and wellbeing programs.',
 }
 
 export default function RootLayout({
@@ -22,10 +22,12 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${playfair.variable} ${martel.variable}`}>
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-      <body className="font-martel">
-        {children}
+      <body>
+        <div className="font-martel">
+          {children}
+        </div>
       </body>
     </html>
   )
