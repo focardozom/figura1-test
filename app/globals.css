@@ -15,13 +15,14 @@
 }
 
 @layer base {
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-playfair italic;
+  body {
+    @apply antialiased m-0 p-0;
+    background-color: var(--background);
+    color: var(--foreground);
   }
 
-  body {
-    @apply font-martel text-base text-gray-800 antialiased;
-    background: var(--background);
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-playfair italic;
   }
 
   .font-light {
@@ -50,5 +51,9 @@
 
   .font-black {
     font-weight: 900;
+  }
+
+  .base-layout {
+    font-family: var(--font-martel);
   }
 }

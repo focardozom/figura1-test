@@ -5,7 +5,10 @@ interface SectionBannerProps {
   overlayColor?: string
 }
 
-export default function SectionBanner({ imagePath, overlayColor = "from-gray-900" }: SectionBannerProps) {
+export default function SectionBanner({ 
+  imagePath, 
+  overlayColor = "bg-gray-900/10"
+}: SectionBannerProps) {
   return (
     <div className="relative h-32 md:h-48 w-full overflow-hidden">
       <div className="absolute inset-0">
@@ -17,7 +20,9 @@ export default function SectionBanner({ imagePath, overlayColor = "from-gray-900
           sizes="100vw"
           priority
         />
-        <div className={`absolute inset-0 bg-gradient-to-b ${overlayColor} to-transparent opacity-20`}></div>
+        
+        {/* Simple semi-transparent overlay */}
+        <div className={`absolute inset-0 ${overlayColor}`}></div>
       </div>
     </div>
   )

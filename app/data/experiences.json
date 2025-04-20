@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "clientName": "Nuevos Rumbos",
+    "location": "Zacatecas, Mexico",
+    "year": "2019",
+    "logo": "/clients/nuevosrumbos.png",
+    "description": "We designed and implemented a mixed-methods monitoring and evaluation strategy for the Brief Intervention with Motivational Interviewing (IBEM) program in Zacatecas. The evaluation aimed to track implementation quality and assess program outcomes among high school students.",
+    "size": "small"
+  },
+  {
+    "id": 2,
+    "clientName": "Red PaPaz",
+    "location": "Colombia",
+    "year": "2019-2020",
+    "logo": "/clients/redpapaz.jpg",
+    "description": "We partnered with Red PaPaz to evaluate two key initiatives on child protection and public awareness. First, we assessed the NetSmartz Workshop, a program to prevent child abuse. Second, we evaluated a national media campaign promoting a tax on sugary drinks.",
+    "size": "small"
+  },
+  {
+    "id": 3,
+    "clientName": "Vital Strategies",
+    "location": "Cali, Buenaventura, and Bogotá",
+    "year": "2020",
+    "logo": "/clients/vitalstrategies.jpg",
+    "description": "We evaluated 10 public service announcements aimed at improving motorcycle driver safety. Through 12 virtual focus groups, we assessed message clarity, emotional impact, cultural relevance, and potential for behavior change. The findings provided actionable insights to support road safety strategies in the Country",
+    "size": "small"
+  },
+  {
+    "id": 4,
+    "clientName": "Origen",
+    "location": "Boyacá and Cundinamarca",
+    "year": "2019-2020",
+    "logo": "/clients/origen.png",
+    "description": "We conducted an external evaluation of the Transformative Public Leadership Program, which aimed to strengthen local leadership and build trust between Grupo de Energía de Bogotá (GEB) and communities in Cogua, Machetá, and Suesca. Using interviews and a mixed-methods approach, we analyzed changes in leadership narratives and community networks between 2019 and 2021.",
+    "size": "small"
+  },
+  {
+    "id": 5,
+    "clientName": "Hola Sésamo",
+    "location": "Colombia",
+    "year": "2023",
+    "logo": "/clients/holasesamo.png",
+    "description": "We partnered with Sesame Workshop to support the social and emotional integration of Venezuelan migrant children and host communities in Colombia. This collaboration included needs assessments and a formative evaluation of Hola Sésamo educational materials.",
+    "size": "small"
+  },
+  {
+    "id": 6,
+    "clientName": "Centro Imagina",
+    "location": "Bogotá",
+    "year": "2023-2025",
+    "logo": "/clients/centroimagina.png",
+    "description": "In collaboration with Centro Imagina at Universidad de los Andes, we supported the outcome evaluation of a community-based intervention led by ARUP and Fundación Tiempo de Juego, aimed at creating safer and more inclusive urban spaces for children and youth in the Santillana neighborhood of Cazucá.",
+    "size": "small"
+  }
+] 

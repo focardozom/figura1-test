@@ -1,5 +1,5 @@
 'use client'
-import { cn } from '@/lib/utils'
+import { cn } from '../../lib/utils'
 import { AuroraBackground } from "./AuroraBackground"
 
 export default function Hero() {
@@ -38,14 +38,6 @@ export default function Hero() {
     <AuroraBackground className="py-24">
       <div className="container mx-auto px-6 relative">
         <div className="flex flex-col items-center text-center">
-          <div className="inline-block mb-6">
-            <span className={cn(
-              "px-3 py-1 bg-blue-100 text-blue-600",
-              "rounded-full text-sm font-medium font-martel"
-            )}>
-              Powered by data
-            </span>
-          </div>
           <h1 className={cn(
             "italic text-4xl md:text-6xl font-bold mb-4 md:mb-6",
             "bg-clip-text text-transparent",
@@ -56,7 +48,7 @@ export default function Hero() {
             Figura 01.
           </h1>
           <p className="text-lg md:text-xl mb-6 md:mb-8 max-w-2xl text-gray-600 font-martel px-4 md:px-0">
-            Our mission is to empower individuals and organizations to create sustainable social change by providing evidence-based evaluations and data driven solutions.
+            Empowering organizations to create sustainable social change through evidence-based evaluations and data-driven solutions.
           </p>
           <button 
             onClick={() => scrollToSection('services')}
@@ -68,7 +60,7 @@ export default function Hero() {
               "font-martel"
             )}
           >
-            <span className="relative z-10">Explore Our Solutions</span>
+            <span className="relative z-10">Discover Solutions</span>
             <div className={cn(
               "absolute inset-0",
               "bg-gradient-to-r from-blue-600 to-emerald-600",
