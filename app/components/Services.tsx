@@ -116,12 +116,6 @@ export default function Services() {
     }
   ]
 
-  // Get color class for a given color name
-  const getColorClass = (color: string, type: 'bg' | 'text' | 'from' | 'to', opacity?: number) => {
-    const opacityClass = opacity ? `-${opacity}` : '';
-    return `${type}-${color}-600${opacityClass}`;
-  };
-
   return (
     <section id="services" className="py-16 md:py-20 bg-gradient-to-br from-blue-50 via-white to-emerald-50">
       <div className="container mx-auto px-4 md:px-6">
