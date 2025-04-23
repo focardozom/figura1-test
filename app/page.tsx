@@ -1,6 +1,7 @@
 import Hero from './components/Hero'
 import Services from './components/Services'
 import ExperienceBrief from './components/ExperienceBrief'
+import Team from './components/Team'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Services />
       <ExperienceBrief />
+      <Team />
       <Contact />
       <Footer />
     </main>
