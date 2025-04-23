@@ -75,7 +75,7 @@ export default function ExperienceBrief() {
       <div className="container mx-auto px-6">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-emerald-600 font-playfair italic">
-            Our Experience Brief
+            Our Experience
           </h2>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 lg:grid-cols-12 gap-4 md:gap-6 mx-auto">
