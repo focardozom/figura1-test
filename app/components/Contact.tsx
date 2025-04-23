@@ -18,7 +18,7 @@ export default function Contact() {
             
             <div className="flex flex-col items-center justify-center gap-4">
               <a 
-                href="mailto:holafigura1@figura1.com.co" 
+                href="mailto:hola@figura1.com.co" 
                 className={cn(
                   "group relative px-8 py-3",
                   "bg-gradient-to-r from-blue-500 to-emerald-500",
@@ -35,10 +35,10 @@ export default function Contact() {
               <p className="text-gray-600 text-sm">
                 Or send us an email directly at{' '}
                 <a 
-                  href="mailto:holafigura1@figura1.com.co" 
+                  href="mailto:hola@figura1.com.co" 
                   className="text-blue-600 hover:text-blue-800 transition-colors"
                 >
-                  holafigura1@figura1.com.co
+                  hola@figura1.com.co
                 </a>
               </p>
             </div>
