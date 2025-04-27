@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-// import Image from 'next/image' - Removing unused import
+import Image from 'next/image'
 import { cn } from '../../lib/utils'
 
 interface TeamMember {
@@ -25,7 +25,7 @@ export default function Team() {
       name: "Natalia Córdoba",
       role: "Lead Researcher & Founder",
       bio: "Natalia has over 10 years of experience in social impact evaluation and policy research.",
-      image: "/team/team-1.jpg",
+      image: "/team/team-1.JPEG",
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/natalia-córdoba-4a9400152/",
         email: "n.cordoba@figura1.com.co"
@@ -36,7 +36,7 @@ export default function Team() {
       name: "Francisco Cardozo",
       role: "Data Science Director",
       bio: "Francisco leads our data science initiatives, specializing in statistical analysis and impact measurement.",
-      image: "/team/team-2.jpg",
+      image: "/team/team-2.JPEG",
       socialLinks: {
         linkedin: "https://linkedin.com/",
         github: "https://github.com/focardozom",
@@ -90,12 +90,12 @@ export default function Team() {
                     </div>
                     
                     {/* This would display the actual image when available */}
-                    {/* <Image 
+                    <Image 
                       src={member.image}
                       alt={member.name}
                       fill
                       className="object-cover"
-                    /> */}
+                    />
                     
                     {/* Overlay on hover */}
                     <div 
