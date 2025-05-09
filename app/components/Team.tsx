@@ -27,7 +27,7 @@ export default function Team() {
       bio: "Natalia has over 10 years of experience in social impact evaluation and policy research.",
       image: "/team/team-1.JPEG",
       socialLinks: {
-        linkedin: "https://www.linkedin.com/in/natalia-córdoba-4a9400152/",
+        linkedin: "natalia-córdoba-4a9400152",
         email: "n.cordoba@figura1.com.co"
       }
     },
@@ -38,7 +38,7 @@ export default function Team() {
       bio: "Francisco leads our data science initiatives, specializing in statistical analysis and impact measurement.",
       image: "/team/team-2.JPEG",
       socialLinks: {
-        linkedin: "https://linkedin.com/",
+        linkedin: "francisco-cardozo-m",
         github: "https://github.com/focardozom",
         email: "f.cardozo@figura1.com.co"
       }
